@@ -1,0 +1,82 @@
+body {
+  background-color: #3a9ed9;
+  color: white;
+  font-family: "Tajawal", sans-serif;
+}
+.container-fluid {
+  text-align: right !important;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.container-fluid h1 {
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.scale-instructions {
+  margin: 3%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 1.5rem;
+}
+
+.list {
+  padding: 0 1.9%;
+}
+
+.inner-list {
+  margin-top: 20px;
+}
+
+.scale-instructions h2 {
+  font-size: 2.5rem;
+}
+
+.education-heading {
+  font-size: 2.5rem;
+  margin-top: 3%;
+}
+
+.education {
+  display: inline-block;
+  margin: 0.8%;
+  font-size: 1.4rem;
+}
+
+.form-control {
+  font-size: 1.2rem;
+}
+
+.custom-select {
+  font-size: 1.2rem;
+}
+
+.education-container {
+  margin-right: 3%;
+}
+
+.input-group {
+  margin-top: 1.2%;
+}
+
+button {
+  text-align: center;
+  background-color: #4bcc5a !important;
+  border: none !important;
+  font-size: 25px !important;
+  font-weight: 500 !important;
+  padding: 10px 20px !important;
+  margin-right: 6%;
+}
+
+button:hover {
+  background-color: #42b54f !important;
+}
+
+.btn-container {
+  text-align: center;
+  margin-left: 6%;
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>مقياس التشوهات المعرفية</title>
+
+    <link rel="icon" href="../images/logo.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="data.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <h1>بيانات اولية</h1>
+
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="الإسم" aria-label="Username"
+                aria-describedby="basic-addon1" dir="rtl">
+        </div>
+
+
+        <div class="input-group mb-3">
+            <select class="custom-select age-selector" id="inputGroupSelect04"
+                aria-label="Example select with button addon" dir="rtl">
+            </select>
+        </div>
+
+        <div class="input-group mb-3" dir="rtl">
+            <select class="custom-select" id="inputGroupSelect02">
+                <option selected>النوع</option>
+                <option value="1">ذكر</option>
+                <option value="2">أنثي</option>
+            </select>
+        </div>
+
+
+        <div class="education-container">
+
+            <h2 class="education-heading">مستوي التعليم</h2>
+
+            <div>
+
+                <div class="education">
+                    <input type="radio" name="education">
+                    <label>جامعي فما فوق</label>
+                </div>
+
+                <div class="education">
+                    <input type="radio" name="education">
+                    <label>فوق المتوسط</label>
+                </div>
+
+                <div class="education">
+                    <input type="radio" name="education">
+                    <label>متوسط</label>
+                </div>
+
+                <div class="education">
+                    <input type="radio" name="education">
+                    <label>يقرأ و يكتب</label>
+                </div>
+
+            </div>
+        </div>
+        <div class="scale-instructions">
+
+            <h2>تعليمات المقياس</h2>
+
+            <div class="list">
+                <ul>
+                    <li dir="rtl" class="inner-list">في هذا المقياس مجموعة عبارات تمثل بعض الأفكار التلقائية و الخواطر
+                        السلبية السريعة التي
+                        ترد
+                        للأشخاص عن أنفسهم و أدائهم في مواقف عديدة</li>
+
+                    <li dir="rtl" class="inner-list">
+                        اقرأ كل عبارة بعناية ثم حدد إلي أي مدي تنطبق عليك هذه العبارة و ضع علامة صح في الخانة التي تعبر
+                        عن انطباق العبارة عليك
+                    </li>
+
+                    <li dir="rtl" class="inner-list">
+                        تذكر أنه ليس هناك إجابة صحيحة و أخري حاطئة لذلك لا تُطيل التعُن في قراءة العبارات
+                    </li>
+
+                    <li dir="rtl" class="inner-list">
+                        تأكد من الإجابة علي كل عبارات المقياس
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="btn-container">
+            <button class="btn btn-primary button" onclick="location.href='../testPage/test.html'">استمرار</button>
+        </div>
+
+    </div>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="data.js" charset="utf-8"></script>
+</body>
+
+</html>
